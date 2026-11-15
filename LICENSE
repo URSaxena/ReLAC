@@ -20,6 +20,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-The files in data/hp_rbac/ and data/derived/hp_rbac_splits/ are derived from
-https://github.com/RoleMining/ConstrainedRM and are distributed under its MIT
-licence (data/hp_rbac/LICENSE).
+
