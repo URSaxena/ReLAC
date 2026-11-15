@@ -1,0 +1,139 @@
+Table S1 / Table 3 / Fig. 2-4 values (mean over splits):
+          kind  fraction   remedy   leak  leak_sd   seen  leak_seen  leak_unseen  changed_unrevoked   d_frr  far_orig     ba  update_s
+          real      0.01 finetune 0.7427   0.1943 0.6014     0.6342       0.9755             0.1053 -0.0793    0.7926 0.6010    0.9924
+          real      0.01  overlay 0.0000   0.0000 0.6014     0.0000       0.0000             0.0000  0.0000    0.3556 0.8019    0.0006
+          real      0.01  retrain 0.4362   0.2222 0.6014     0.1990       0.8592             0.0568  0.0076    0.3411 0.7731    2.6058
+          real      0.01    stale 0.8978   0.0448 0.6014     0.9316       0.8464             0.0000  0.0000    0.3570 0.7371    0.0000
+          real      0.01 weighted 0.4206   0.2131 0.6014     0.1759       0.8396             0.0600  0.0104    0.3486 0.7695    3.0174
+          real      0.05 finetune 0.8467   0.1044 0.5049     0.7534       0.9540             0.0881 -0.0525    0.6180 0.6196    0.9342
+          real      0.05  overlay 0.0000   0.0000 0.5049     0.0000       0.0000             0.0000  0.0000    0.3542 0.8571    0.0010
+          real      0.05  retrain 0.4816   0.1432 0.5049     0.1065       0.8702             0.0680  0.0034    0.3655 0.7434    2.3318
+          real      0.05    stale 0.9033   0.0370 0.5049     0.9188       0.8856             0.0000  0.0000    0.3570 0.6526    0.0000
+          real      0.05 weighted 0.4630   0.1317 0.5049     0.0915       0.8403             0.0860  0.0183    0.3641 0.7406    2.0528
+          real      0.10 finetune 0.8349   0.1831 0.4235     0.7914       0.9235             0.0862 -0.0309    0.5586 0.6037    0.9217
+          real      0.10  overlay 0.0000   0.0000 0.4235     0.0000       0.0000             0.0000  0.0000    0.3519 0.8878    0.0009
+          real      0.10  retrain 0.5326   0.2137 0.4235     0.1240       0.8555             0.0764  0.0173    0.3481 0.7142    2.4097
+          real      0.10    stale 0.9035   0.0308 0.4235     0.9465       0.8810             0.0000  0.0000    0.3570 0.6048    0.0000
+          real      0.10 weighted 0.5293   0.2252 0.4235     0.1079       0.8322             0.1007  0.0170    0.3947 0.7066    2.2640
+          real      0.20 finetune 0.7304   0.1294 0.6209     0.6864       0.8051             0.1093  0.0610    0.3455 0.6013    0.8875
+          real      0.20  overlay 0.0000   0.0000 0.6209     0.0000       0.0000             0.0000  0.0000    0.3333 0.9159    0.0012
+          real      0.20  retrain 0.3363   0.0879 0.6209     0.0526       0.7982             0.1045  0.0307    0.3467 0.7684    2.0786
+          real      0.20    stale 0.8985   0.0266 0.6209     0.9103       0.8759             0.0000  0.0000    0.3570 0.5662    0.0000
+          real      0.20 weighted 0.2798   0.0984 0.6209     0.0414       0.6578             0.1583  0.0728    0.3811 0.7652    2.1434
+     real-rbac      0.01 finetune 0.4638   0.3963 0.9520     0.4753       0.1000             0.0647 -0.0719    0.0444 0.8395    1.1316
+     real-rbac      0.01  overlay 0.0000   0.0000 0.9520     0.0000       0.0000             0.0000  0.0000    0.0031 0.8289    0.0003
+     real-rbac      0.01  retrain 0.0148   0.0574 0.9520     0.0065       0.1000             0.0070 -0.0020    0.0034 0.8295    1.9564
+     real-rbac      0.01    stale 0.6653   0.3927 0.9520     0.6804       0.1250             0.0000  0.0000    0.0032 0.8218    0.0000
+     real-rbac      0.01 weighted 0.0178   0.0577 0.9520     0.0098       0.1000             0.0069 -0.0024    0.0035 0.8296    1.9954
+     real-rbac      0.05 finetune 0.4830   0.3460 0.8164     0.5159       0.2882             0.0804 -0.0383    0.0435 0.7997    1.0945
+     real-rbac      0.05  overlay 0.0000   0.0000 0.8164     0.0000       0.0000             0.0000  0.0000    0.0031 0.8239    0.0012
+     real-rbac      0.05  retrain 0.0300   0.0584 0.8164     0.0200       0.2057             0.0078 -0.0052    0.0036 0.8242    1.8585
+     real-rbac      0.05    stale 0.6067   0.3890 0.8164     0.6685       0.1974             0.0000  0.0000    0.0032 0.7937    0.0000
+     real-rbac      0.05 weighted 0.0320   0.0560 0.8164     0.0220       0.2058             0.0100 -0.0093    0.0040 0.8261    1.9623
+     real-rbac      0.10 finetune 0.4877   0.3937 0.8425     0.4970       0.2950             0.0644 -0.0308    0.0323 0.7942    1.0956
+     real-rbac      0.10  overlay 0.0000   0.0000 0.8425     0.0000       0.0000             0.0000  0.0000    0.0029 0.8334    0.0014
+     real-rbac      0.10  retrain 0.0300   0.0565 0.8425     0.0107       0.2480             0.0095 -0.0008    0.0028 0.8298    1.9228
+     real-rbac      0.10    stale 0.5662   0.4311 0.8425     0.5910       0.2532             0.0000  0.0000    0.0032 0.7849    0.0000
+     real-rbac      0.10 weighted 0.0328   0.0580 0.8425     0.0114       0.3344             0.0090 -0.0018    0.0044 0.8294    1.9339
+     real-rbac      0.20 finetune 0.4661   0.3306 0.8361     0.4741       0.2850             0.0951 -0.0038    0.0390 0.7451    1.0765
+     real-rbac      0.20  overlay 0.0000   0.0000 0.8361     0.0000       0.0000             0.0000  0.0000    0.0028 0.8232    0.0015
+     real-rbac      0.20  retrain 0.0054   0.0122 0.8361     0.0015       0.0626             0.0102  0.0086    0.0028 0.8180    1.8713
+     real-rbac      0.20    stale 0.6000   0.3837 0.8361     0.6476       0.1706             0.0000  0.0000    0.0032 0.7390    0.0000
+     real-rbac      0.20 weighted 0.0060   0.0152 0.8361     0.0020       0.0716             0.0094  0.0013    0.0037 0.8211    1.9577
+synthetic-abac      0.01 finetune 0.4670   0.1919 1.0000     0.4670          NaN             0.0990 -0.0217    0.0777 0.9114    1.3586
+synthetic-abac      0.01  overlay 0.0000   0.0000 1.0000     0.0000          NaN             0.0000  0.0000    0.0047 0.9453    0.0002
+synthetic-abac      0.01  retrain 0.0000   0.0000 1.0000     0.0000          NaN             0.0146  0.0016    0.0053 0.9442    5.3005
+synthetic-abac      0.01    stale 0.5150   0.1793 1.0000     0.5150          NaN             0.0000  0.0000    0.0047 0.9340    0.0000
+synthetic-abac      0.01 weighted 0.0000   0.0000 1.0000     0.0000          NaN             0.0141  0.0054    0.0043 0.9428    5.2686
+synthetic-abac      0.05 finetune 0.3969   0.1587 1.0000     0.3969          NaN             0.0947 -0.0407    0.0808 0.9096    1.3330
+synthetic-abac      0.05  overlay 0.0000   0.0000 1.0000     0.0000          NaN             0.0000  0.0000    0.0045 0.9451    0.0002
+synthetic-abac      0.05  retrain 0.0000   0.0000 1.0000     0.0000          NaN             0.0146  0.0051    0.0048 0.9424    5.3526
+synthetic-abac      0.05    stale 0.4718   0.1376 1.0000     0.4718          NaN             0.0000  0.0000    0.0047 0.9203    0.0000
+synthetic-abac      0.05 weighted 0.0000   0.0000 1.0000     0.0000          NaN             0.0165  0.0081    0.0043 0.9412    5.2090
+synthetic-abac      0.10 finetune 0.3675   0.1279 0.9978     0.3679       0.2143             0.1131 -0.0229    0.0953 0.8825    1.3198
+synthetic-abac      0.10  overlay 0.0000   0.0000 0.9978     0.0000       0.0000             0.0000  0.0000    0.0042 0.9454    0.0002
+synthetic-abac      0.10  retrain 0.0000   0.0000 0.9978     0.0000       0.0000             0.0167  0.0059    0.0048 0.9422    5.3224
+synthetic-abac      0.10    stale 0.4413   0.1016 0.9978     0.4424       0.0714             0.0000  0.0000    0.0047 0.9021    0.0000
+synthetic-abac      0.10 weighted 0.0000   0.0000 0.9978     0.0000       0.0000             0.0163  0.0065    0.0047 0.9420    5.3762
+synthetic-abac      0.20 finetune 0.3604   0.1244 0.9963     0.3616       0.0484             0.1199 -0.0039    0.0826 0.8587    1.3716
+synthetic-abac      0.20  overlay 0.0000   0.0000 0.9963     0.0000       0.0000             0.0000  0.0000    0.0037 0.9460    0.0002
+synthetic-abac      0.20  retrain 0.0001   0.0007 0.9963     0.0001       0.0000             0.0191  0.0100    0.0041 0.9408    5.0804
+synthetic-abac      0.20    stale 0.4503   0.0873 0.9963     0.4517       0.0323             0.0000  0.0000    0.0047 0.8700    0.0000
+synthetic-abac      0.20 weighted 0.0001   0.0007 0.9963     0.0001       0.0000             0.0178  0.0040    0.0043 0.9438    5.4017
+
+Table S2 (Wilcoxon signed-rank, Holm-corrected within family and revocation size):
+   family  fraction                 comparison  n  median_diff       p_holm
+   Amazon      0.01    retrain vs stale (leak) 15      -0.5161 3.051758e-04
+   Amazon      0.01 weighted vs retrain (leak) 15      -0.0149 2.720952e-01
+   Amazon      0.01   finetune vs stale (leak) 15      -0.0746 1.042648e-02
+   Amazon      0.01  retrain vs overlay (leak) 15       0.3906 3.051758e-04
+   Amazon      0.01 retrain vs overlay (churn) 15       0.0536 3.051758e-04
+   Amazon      0.05    retrain vs stale (leak) 15      -0.4727 3.051758e-04
+   Amazon      0.05 weighted vs retrain (leak) 15      -0.0225 3.613281e-02
+   Amazon      0.05   finetune vs stale (leak) 15      -0.0319 9.460449e-02
+   Amazon      0.05  retrain vs overlay (leak) 15       0.4759 3.051758e-04
+   Amazon      0.05 retrain vs overlay (churn) 15       0.0626 3.051758e-04
+   Amazon      0.10    retrain vs stale (leak) 15      -0.2698 3.051758e-04
+   Amazon      0.10 weighted vs retrain (leak) 15      -0.0031 9.774170e-01
+   Amazon      0.10   finetune vs stale (leak) 15       0.0146 9.774170e-01
+   Amazon      0.10  retrain vs overlay (leak) 15       0.6516 3.051758e-04
+   Amazon      0.10 retrain vs overlay (churn) 15       0.0740 3.051758e-04
+   Amazon      0.20    retrain vs stale (leak) 15      -0.5773 3.051758e-04
+   Amazon      0.20 weighted vs retrain (leak) 15      -0.0534 3.051758e-04
+   Amazon      0.20   finetune vs stale (leak) 15      -0.1710 3.051758e-04
+   Amazon      0.20  retrain vs overlay (leak) 15       0.3344 3.051758e-04
+   Amazon      0.20 retrain vs overlay (churn) 15       0.1074 3.051758e-04
+     RBAC      0.01    retrain vs stale (leak) 15      -0.7812 3.051758e-04
+     RBAC      0.01 weighted vs retrain (leak) 15       0.0000 6.346210e-01
+     RBAC      0.01   finetune vs stale (leak) 15      -0.0694 3.224035e-02
+     RBAC      0.01  retrain vs overlay (leak) 15       0.0000 6.346210e-01
+     RBAC      0.01 retrain vs overlay (churn) 15       0.0040 3.051758e-04
+     RBAC      0.05    retrain vs stale (leak) 15      -0.7939 3.051758e-04
+     RBAC      0.05 weighted vs retrain (leak) 15       0.0000 7.150007e-01
+     RBAC      0.05   finetune vs stale (leak) 15      -0.1253 2.508545e-02
+     RBAC      0.05  retrain vs overlay (leak) 15       0.0000 5.541570e-02
+     RBAC      0.05 retrain vs overlay (churn) 15       0.0051 3.926159e-03
+     RBAC      0.10    retrain vs stale (leak) 15      -0.7360 3.051758e-04
+     RBAC      0.10 weighted vs retrain (leak) 15       0.0000 2.850494e-01
+     RBAC      0.10   finetune vs stale (leak) 15      -0.0633 2.563477e-03
+     RBAC      0.10  retrain vs overlay (leak) 15       0.0000 3.592096e-02
+     RBAC      0.10 retrain vs overlay (churn) 15       0.0085 3.051758e-04
+     RBAC      0.20    retrain vs stale (leak) 15      -0.8035 3.051758e-04
+     RBAC      0.20 weighted vs retrain (leak) 15       0.0000 5.001843e-01
+     RBAC      0.20   finetune vs stale (leak) 15      -0.0897 1.708984e-03
+     RBAC      0.20  retrain vs overlay (leak) 15       0.0000 8.622889e-02
+     RBAC      0.20 retrain vs overlay (churn) 15       0.0076 2.944619e-03
+Synthetic      0.01    retrain vs stale (leak) 32      -0.5137 2.328306e-09
+Synthetic      0.01 weighted vs retrain (leak) 32       0.0000 1.000000e+00
+Synthetic      0.01   finetune vs stale (leak) 32      -0.0560 8.040185e-02
+Synthetic      0.01  retrain vs overlay (leak) 32       0.0000 1.000000e+00
+Synthetic      0.01 retrain vs overlay (churn) 32       0.0108 2.328306e-09
+Synthetic      0.05    retrain vs stale (leak) 32      -0.4682 2.328306e-09
+Synthetic      0.05 weighted vs retrain (leak) 32       0.0000 1.000000e+00
+Synthetic      0.05   finetune vs stale (leak) 32      -0.0711 2.455624e-04
+Synthetic      0.05  retrain vs overlay (leak) 32       0.0000 1.000000e+00
+Synthetic      0.05 retrain vs overlay (churn) 32       0.0106 2.328306e-09
+Synthetic      0.10    retrain vs stale (leak) 32      -0.4428 2.328306e-09
+Synthetic      0.10 weighted vs retrain (leak) 32       0.0000 1.000000e+00
+Synthetic      0.10   finetune vs stale (leak) 32      -0.0674 1.801885e-03
+Synthetic      0.10  retrain vs overlay (leak) 32       0.0000 1.000000e+00
+Synthetic      0.10 retrain vs overlay (churn) 32       0.0125 4.696778e-06
+Synthetic      0.20    retrain vs stale (leak) 32      -0.4489 2.328306e-09
+Synthetic      0.20 weighted vs retrain (leak) 32       0.0000 1.000000e+00
+Synthetic      0.20   finetune vs stale (leak) 32      -0.0602 1.006387e-03
+Synthetic      0.20  retrain vs overlay (leak) 32       0.0000 6.346210e-01
+Synthetic      0.20 retrain vs overlay (churn) 32       0.0146 2.328306e-09
+
+Text values:
+n_units: {'Amazon': 15, 'RBAC': 15, 'Synthetic': 32}
+units_x_fractions: 248
+revoked_requests_total: 147748
+seen_fraction: {'Amazon': 0.5376791394772857, 'RBAC': 0.8617622575398175, 'Synthetic': 0.9985272466179209}
+retrain_unseen_share: {'Amazon': 0.9107819989983544, 'RBAC': 0.6413043478260877, 'Synthetic': 0.0}
+retrain_update_s_median: {'Amazon': 2.0202981654999803, 'RBAC': 1.4735281800000166, 'Synthetic': 5.159356512999921}
+weighted_update_s_median: {'Amazon': 2.034413743000016, 'RBAC': 1.4791943680000372, 'Synthetic': 5.265476166999974}
+finetune_update_s_median: {'Amazon': 0.8133529049999879, 'RBAC': 0.8858142860000839, 'Synthetic': 1.3069984100000056}
+overlay_update_ms_max: 5.4316939999807
+overlay_max_leak: 0.0
+overlay_max_churn: 0.0
+window: {'g0': 0.9032962889268707, 'g1': 0.4815948940409183, 'T_hours': 0.0006477173831296307, 'L30_daily': 351.8090135914166, 'L30_weekly': 382.17151402320513}
